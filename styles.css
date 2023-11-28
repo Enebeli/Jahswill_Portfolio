@@ -1,9 +1,9 @@
 body {
-    background-color: whitesmoke;
+    background-color: silver;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: default;
 }
-p {
+p{
     border: 2px solid blue;
     padding: 20px;
     margin: 50px 100px;
@@ -16,8 +16,9 @@ p1 {
 }
 header {
     border: 2px solid blue;
-    padding: 20px;
+    padding: 5px 10px;
     background-color: aqua;
+    width: 95vw;
     text-align:center;
     position: fixed;
 }
@@ -35,5 +36,9 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
+h1 {
+    margin: 5px 5px;
+}
+main{
+    padding-top: 75px;
+}
