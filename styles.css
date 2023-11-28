@@ -18,6 +18,7 @@ header {
     border: 2px solid blue;
     padding: 5px 10px;
     background-color: aqua;
+    width: 95vw;
     text-align:center;
     position: fixed;
 }
@@ -37,4 +38,7 @@ a:hover {
 }
 h1 {
     margin: 5px 5px;
+}
+main{
+    padding-top: 75px;
 }
