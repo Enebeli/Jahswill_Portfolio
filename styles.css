@@ -1,7 +1,7 @@
 body {
     background-color: silver;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    cursor: default;
+    cursor:ns-resize;
 }
 p{
     border: 2px solid blue;
@@ -22,7 +22,7 @@ header {
     text-align:center;
     position: fixed;
 }
-::selection{background-color: yellow;}
+::selection{background-color: black; color: white;}
 a:link {
     color: blue;
     text-decoration: none;
