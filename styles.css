@@ -42,3 +42,8 @@ h1 {
 main{
     padding-top: 75px;
 }
+b{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
