@@ -1,19 +1,19 @@
+// This is for the footer
 const currentYear = new Date().getFullYear();
 document.getElementById('my-footer').innerHTML = `&copy; ${currentYear} Enebeli Jahswill. All rights reserved.`;
-
+// This is for the alert button
 document.getElementById('btn-alert').addEventListener('click', () => {
-    alert('Hi Stephen, I am so sorry this is coming late.');
+    alert('Hi Stephen, I am so sorry this is coming late. I had difficulty understanding how to use Javascript, but I think I am getting a hang of it now.');
 });
-
+// This is for the hover button
 const hoverButton = document.getElementById('btn-hover');
-
 hoverButton.addEventListener('mouseover', () => {
     hoverButton.textContent = 'New button label';
 });
-
 hoverButton.addEventListener('mouseleave', () => {
     hoverButton.textContent = 'Default button label';
 });
+// This is for the increment button
 let count = 1;
         document.getElementById('btn-counter').onclick = () => {
             count = count + 1;
